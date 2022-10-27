@@ -1,0 +1,50 @@
+[
+  {
+    "numero_solicitud": "1",
+    "tipo_documento" : "CC",
+    "documento": "1000100100",
+    "nombre": "Pepito Perez",
+    "telefono": "3051001010",
+    "email" : "pepito@gmail.com",
+    "genero" : "masculino",
+    "nacionalidad": "Colombiana",
+    "EPS": "Faminasar",
+    "IPS": "Colsubsidio",
+    "tipo_solicitud" : "Envio de atención médica",
+    "direccion" : "Av las palmas",
+    "tipo_plan" : "A"    
+  },
+
+  {
+    "numero_solicitud": "2",
+    "tipo_documento" : "CC",
+    "documento": "1111100100",
+    "nombre": "Cristian ramirez",
+    "telefono": "3101101110",
+    "email" : "cristianramirez@gmail.com",
+    "genero" : "masculino",
+    "nacionalidad": "Colombiana",
+    "EPS": "Salud Total",
+    "IPS": "Salud Total",
+    "tipo_solicitud" : "Envio de medicamentos",
+    "direccion" : "vda. La Trinidad",
+    "tipo_plan" : "C"    
+  },
+
+  {
+    "numero_solicitud": "3",
+    "tipo_documento" : "PEP",
+    "documento": "1000111100001000",
+    "nombre": "Anita Lavalatina",
+    "telefono": "3202001212",
+    "email" : "anitalavalatina@yahoo.com",
+    "genero" : "femenino",
+    "nacionalidad": "Venezolana",
+    "EPS": "Sura EPS",
+    "IPS": "Sura EPS",
+    "tipo_solicitud" : "Envio de atención médica",
+    "direccion" : "Conjunto Las Delicias",
+    "tipo_plan" : "B"    
+  }
+
+]
