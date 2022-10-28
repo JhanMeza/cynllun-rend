@@ -29,8 +29,8 @@ app.get('/usuarios', (req, res) => {   // << Codigo Traido de usuarios se cambio
 app.post('/usuarios/post', (req, res) => {  // Agregado de producto en postman
     // console.log(req.body)
     // Reconstruir un objeto
-    const {tipo_documento, documento, nombre, telefono, email, genero, nacionalidad, EPS, IPS, tipo_solicitud, direccion, tipo_plan} = req.body
-    if(tipo_documento && documento && nombre && telefono && email && genero && nacionalidad && EPS && IPS && tipo_solicitud && direccion && tipo_plan){
+    const {Tipo_Documento, Documento, Nombre, Telefono, Email, Genero, Nacionalidad, EPS, IPS, Tipo_Solicitud, Direccion, Tipo_Plan} = req.body
+    if(Tipo_Documento && Documento && Nombre && Telefono && Email && Genero && Nacionalidad && EPS && IPS && Tipo_Solicitud && Direccion && Tipo_Plan){
         // res.json('Producto guardado.')
         const numero_solicitud = usuarios.length + 1
         const newUser = {...req.body, numero_solicitud}
