@@ -1,8 +1,14 @@
-const express = require('express')
-const app = express()
+const express = require('express') // 1. Importamos express.js para poder utilizarlo en nuestro proyecto
+const cors = require("cors") // importación de libreria "cors"
+
+const app = express() // 2. Creamos una aplicación con express.js
 const morgan = require('morgan')
 
 //Configuración
+app.use(express.static('public'))
+app.use(cors()) // acá se le dice a express que utilice la libreria cors
+app.use(express.json()) // acá se habilita la capacidad de recibir peticiones post que traigan contenido JSON
+
 app.set('port', process.env.PORT || 8081)
 app.set('json spaces', 2)
 
@@ -50,4 +56,10 @@ app.listen(app.get('port'), () => {
 /* Pasos: 
     1. npm i nodemon -D
     2. npm run dev
+*/
+
+/* Pasos: 
+    npm init
+    npm install express
+    npm install cors
 */
